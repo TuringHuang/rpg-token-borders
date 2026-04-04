@@ -1,0 +1,22 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="gr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e4c765"/>
+      <stop offset="50%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#8a6d1b"/>
+    </linearGradient>
+    <linearGradient id="gr2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6d1b"/>
+      <stop offset="50%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#e4c765"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="248" stroke="url(#gr)" stroke-width="8" opacity="0.6"/>
+  <!-- Main ring -->
+  <circle cx="256" cy="256" r="236" stroke="url(#gr2)" stroke-width="18"/>
+  <!-- Inner highlight -->
+  <circle cx="256" cy="256" r="224" stroke="#e4c765" stroke-width="2" opacity="0.5"/>
+  <!-- Inner edge -->
+  <circle cx="256" cy="256" r="220" stroke="#8a6d1b" stroke-width="1.5" opacity="0.4"/>
+</svg>

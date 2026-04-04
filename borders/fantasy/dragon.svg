@@ -1,0 +1,46 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#e4c765"/>
+      <stop offset="100%" stop-color="#8a6d1b"/>
+    </linearGradient>
+  </defs>
+  <!-- Heavy outer ring -->
+  <circle cx="256" cy="256" r="250" stroke="#8a6d1b" stroke-width="4"/>
+  <circle cx="256" cy="256" r="240" stroke="url(#dg)" stroke-width="12"/>
+  <!-- Scale pattern — 20 overlapping arc "scales" -->
+  <g fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.5">
+    <g id="sc">
+      <path d="M256 8 Q268 22 256 36 Q244 22 256 8z"/>
+    </g>
+    <use href="#sc" transform="rotate(18 256 256)"/>
+    <use href="#sc" transform="rotate(36 256 256)"/>
+    <use href="#sc" transform="rotate(54 256 256)"/>
+    <use href="#sc" transform="rotate(72 256 256)"/>
+    <use href="#sc" transform="rotate(90 256 256)"/>
+    <use href="#sc" transform="rotate(108 256 256)"/>
+    <use href="#sc" transform="rotate(126 256 256)"/>
+    <use href="#sc" transform="rotate(144 256 256)"/>
+    <use href="#sc" transform="rotate(162 256 256)"/>
+    <use href="#sc" transform="rotate(180 256 256)"/>
+    <use href="#sc" transform="rotate(198 256 256)"/>
+    <use href="#sc" transform="rotate(216 256 256)"/>
+    <use href="#sc" transform="rotate(234 256 256)"/>
+    <use href="#sc" transform="rotate(252 256 256)"/>
+    <use href="#sc" transform="rotate(270 256 256)"/>
+    <use href="#sc" transform="rotate(288 256 256)"/>
+    <use href="#sc" transform="rotate(306 256 256)"/>
+    <use href="#sc" transform="rotate(324 256 256)"/>
+    <use href="#sc" transform="rotate(342 256 256)"/>
+  </g>
+  <!-- Inner ring -->
+  <circle cx="256" cy="256" r="222" stroke="#c9a84c" stroke-width="3"/>
+  <circle cx="256" cy="256" r="216" stroke="#8a6d1b" stroke-width="1.5" opacity="0.5"/>
+  <!-- 4 cardinal point fangs -->
+  <g fill="#c9a84c" stroke="#8a6d1b" stroke-width="1">
+    <path d="M256 2 l-8 20 16 0z"/>
+    <path d="M256 510 l-8-20 16 0z"/>
+    <path d="M2 256 l20-8 0 16z"/>
+    <path d="M510 256 l-20-8 0 16z"/>
+  </g>
+</svg>

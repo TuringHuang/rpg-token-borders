@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c03030"/>
+      <stop offset="100%" stop-color="#601010"/>
+    </linearGradient>
+    <radialGradient id="bd" cx="0.5" cy="0" r="1">
+      <stop offset="0%" stop-color="#ff4040" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#601010" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Heavy blood ring -->
+  <circle cx="256" cy="256" r="240" stroke="url(#bg)" stroke-width="16"/>
+  <!-- Outer smear -->
+  <circle cx="256" cy="256" r="250" stroke="#8b2020" stroke-width="3" opacity="0.5"/>
+  <!-- Inner edge -->
+  <circle cx="256" cy="256" r="228" stroke="#601010" stroke-width="2"/>
+  <!-- Drip details — 8 drips at various angles, pointing inward -->
+  <g fill="#8b2020" fill-opacity="0.6" stroke="none">
+    <path d="M256 230 q-3-12-1-22 q4 8 1 22z" transform="rotate(0 256 256)"/>
+    <path d="M256 228 q-4-16-1-28 q5 10 1 28z" transform="rotate(45 256 256)"/>
+    <path d="M256 229 q-2-10-1-18 q3 6 1 18z" transform="rotate(100 256 256)"/>
+    <path d="M256 227 q-3-14-1-26 q4 10 1 26z" transform="rotate(160 256 256)"/>
+    <path d="M256 230 q-2-8-1-16 q3 6 1 16z" transform="rotate(200 256 256)"/>
+    <path d="M256 228 q-4-18-1-30 q5 12 1 30z" transform="rotate(250 256 256)"/>
+    <path d="M256 229 q-2-10-1-20 q3 8 1 20z" transform="rotate(300 256 256)"/>
+    <path d="M256 230 q-3-12-1-24 q4 10 1 24z" transform="rotate(340 256 256)"/>
+  </g>
+  <!-- Inner glow -->
+  <circle cx="256" cy="256" r="224" stroke="#c03030" stroke-width="1" opacity="0.3"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Base ring -->
+  <circle cx="256" cy="256" r="238" stroke="#ff6600" stroke-width="3"/>
+  <!-- Outer trace ring -->
+  <circle cx="256" cy="256" r="248" stroke="#ff6600" stroke-width="1" opacity="0.3" stroke-dasharray="20 10"/>
+  <!-- Inner trace ring -->
+  <circle cx="256" cy="256" r="226" stroke="#ff6600" stroke-width="1" opacity="0.3" stroke-dasharray="12 8 4 8"/>
+  <!-- Circuit trace lines — 8 radial traces with right-angle bends -->
+  <g stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <!-- N trace -->
+    <path d="M256 4 v10 h8 v6"/>
+    <!-- NE trace -->
+    <path d="M362 42 l-6 6 v8 h-6" />
+    <!-- E trace -->
+    <path d="M508 256 h-10 v-8 h-6"/>
+    <!-- SE trace -->
+    <path d="M362 470 l-6-6 v-8 h6"/>
+    <!-- S trace -->
+    <path d="M256 508 v-10 h-8 v-6"/>
+    <!-- SW trace -->
+    <path d="M150 470 l6-6 v-8 h-6"/>
+    <!-- W trace -->
+    <path d="M4 256 h10 v8 h6"/>
+    <!-- NW trace -->
+    <path d="M150 42 l6 6 v8 h-6"/>
+  </g>
+  <!-- Junction nodes — small squares at trace endpoints -->
+  <g fill="#ff6600" opacity="0.8">
+    <rect x="262" y="18" width="4" height="4"/>
+    <rect x="348" y="54" width="4" height="4"/>
+    <rect x="490" y="246" width="4" height="4"/>
+    <rect x="360" y="454" width="4" height="4"/>
+    <rect x="246" y="490" width="4" height="4"/>
+    <rect x="148" y="454" width="4" height="4"/>
+    <rect x="18" y="262" width="4" height="4"/>
+    <rect x="148" y="54" width="4" height="4"/>
+  </g>
+  <!-- Data dots on main ring -->
+  <g fill="#ff6600" opacity="0.5">
+    <circle cx="256" cy="18" r="2.5"/>
+    <circle cx="494" cy="256" r="2.5"/>
+    <circle cx="256" cy="494" r="2.5"/>
+    <circle cx="18" cy="256" r="2.5"/>
+    <circle cx="366" cy="54" r="2"/>
+    <circle cx="366" cy="458" r="2"/>
+    <circle cx="146" cy="54" r="2"/>
+    <circle cx="146" cy="458" r="2"/>
+  </g>
+</svg>

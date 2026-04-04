@@ -1,0 +1,37 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9080e0"/>
+      <stop offset="100%" stop-color="#4a3a8a"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer arcane circle -->
+  <circle cx="256" cy="256" r="248" stroke="#6e5cbf" stroke-width="2" stroke-dasharray="2 6" opacity="0.5"/>
+  <!-- Main ring -->
+  <circle cx="256" cy="256" r="238" stroke="url(#ag)" stroke-width="10"/>
+  <!-- Inner ring -->
+  <circle cx="256" cy="256" r="226" stroke="#6e5cbf" stroke-width="2"/>
+  <!-- Rune marks — 8 arcane symbols at cardinal and intercardinal points -->
+  <g stroke="#9080e0" stroke-width="2" stroke-linecap="round" fill="none">
+    <!-- N: triangle rune -->
+    <path d="M256 6 l-8 16 16 0z" transform="rotate(0 256 256)"/>
+    <!-- NE: cross rune -->
+    <g transform="rotate(45 256 256)"><line x1="256" y1="6" x2="256" y2="20"/><line x1="250" y1="13" x2="262" y2="13"/></g>
+    <!-- E: diamond -->
+    <path d="M256 6 l6 10 -6 10 -6-10z" transform="rotate(90 256 256)"/>
+    <!-- SE: dot circle -->
+    <g transform="rotate(135 256 256)"><circle cx="256" cy="13" r="5"/><circle cx="256" cy="13" r="2" fill="#9080e0" fill-opacity="0.4"/></g>
+    <!-- S: inverse triangle -->
+    <path d="M256 22 l-8-16 16 0z" transform="rotate(180 256 256)"/>
+    <!-- SW: zigzag -->
+    <path d="M250 6 l4 8 -4 8 4 4" transform="rotate(225 256 256)"/>
+    <!-- W: parallel lines -->
+    <g transform="rotate(270 256 256)"><line x1="252" y1="6" x2="252" y2="22"/><line x1="260" y1="6" x2="260" y2="22"/></g>
+    <!-- NW: star -->
+    <g transform="rotate(315 256 256)"><line x1="256" y1="4" x2="256" y2="22"/><line x1="247" y1="13" x2="265" y2="13"/><line x1="250" y1="6" x2="262" y2="20"/><line x1="262" y1="6" x2="250" y2="20"/></g>
+  </g>
+  <!-- Inner spell circle -->
+  <circle cx="256" cy="256" r="220" stroke="#6e5cbf" stroke-width="1" stroke-dasharray="12 4 2 4" opacity="0.4"/>
+  <!-- Faint inner glow ring -->
+  <circle cx="256" cy="256" r="214" stroke="#9080e0" stroke-width="0.5" opacity="0.25"/>
+</svg>

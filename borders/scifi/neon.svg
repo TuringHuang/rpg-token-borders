@@ -1,0 +1,22 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Neon glow spread -->
+  <circle cx="256" cy="256" r="244" stroke="#00ffaa" stroke-width="12" opacity="0.06"/>
+  <circle cx="256" cy="256" r="242" stroke="#00ffaa" stroke-width="8" opacity="0.12"/>
+  <circle cx="256" cy="256" r="240" stroke="#00ffaa" stroke-width="4" opacity="0.25"/>
+  <!-- Core neon line -->
+  <circle cx="256" cy="256" r="238" stroke="#00ffaa" stroke-width="2.5"/>
+  <!-- Inner glow -->
+  <circle cx="256" cy="256" r="236" stroke="#00ffaa" stroke-width="4" opacity="0.25"/>
+  <circle cx="256" cy="256" r="234" stroke="#00ffaa" stroke-width="8" opacity="0.1"/>
+  <!-- Break segments — 4 gaps simulated by dark overlay arcs -->
+  <g stroke="#00ffaa" stroke-width="2" opacity="0.5" stroke-dasharray="6 80">
+    <circle cx="256" cy="256" r="248"/>
+  </g>
+  <!-- Tiny accent dots at cardinal points -->
+  <g fill="#00ffaa">
+    <circle cx="256" cy="14" r="3" opacity="0.8"/>
+    <circle cx="256" cy="498" r="3" opacity="0.8"/>
+    <circle cx="14" cy="256" r="3" opacity="0.8"/>
+    <circle cx="498" cy="256" r="3" opacity="0.8"/>
+  </g>
+</svg>
