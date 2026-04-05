@@ -4,6 +4,8 @@ Free SVG border frames for tabletop RPG character tokens. Use them with any virt
 
 ## Preview
 
+![RPG Token Borders Preview](images/rpg-token-borders-preview.png)
+
 | Fantasy | Minimal | Sci-Fi |
 |---------|---------|--------|
 | Classic gold rings, ornate frames | Clean circles, thin strokes | Neon rings, tech frames |
