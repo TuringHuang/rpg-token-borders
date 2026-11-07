@@ -1,0 +1,84 @@
+{
+  "copyright": "Copyright (C) The Battle for Wesnoth Project",
+  "license": "GPL-2.0-or-later",
+  "upstreamRepository": "wesnoth/wesnoth",
+  "upstreamCommit": "033012219e737f8c1bca288e16700a8795e67117",
+  "documentationDate": "2026-11-08",
+  "portraits": [
+    {
+      "name": "bryn",
+      "upstreamPath": "data/core/images/portraits/dwarves/fighter.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/dwarves/fighter.webp",
+      "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
+      "artist": "Phil Barber (thespaceinvader)",
+      "embeddedLicense": "GNU GPL v2+",
+      "original": "originals/bryn.webp",
+      "originalSha256": "f0f0578713880ce54ff651e803f994dffdd42fc39bb62f1f88111b2eb38e1289",
+      "modified": "bryn.webp",
+      "modifiedSha256": "8a4db4e3c4d3ca1b2e6a01fe073c0a9664a97804ce9365da1d36ea47dbc6b89e",
+      "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
+    },
+    {
+      "name": "wren",
+      "upstreamPath": "data/core/images/portraits/elves/ranger+female.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/elves/ranger+female.webp",
+      "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
+      "artist": "Kathrin Polikeit (Kitty)",
+      "embeddedLicense": "GNU GPL v2+",
+      "original": "originals/wren.webp",
+      "originalSha256": "0f732c24a93f32dc7fdf819dde76f7d4b62dacc9e8e847c0b8bd8c147c421b9f",
+      "modified": "wren.webp",
+      "modifiedSha256": "a4f9ae44a6dfd40e7c01b0fa13935c12f53a5ae10a6ddcc32b7c040b8c4abd34",
+      "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
+    },
+    {
+      "name": "oren",
+      "upstreamPath": "data/core/images/portraits/humans/mage-silver.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/humans/mage-silver.webp",
+      "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
+      "artist": "Kathrin Polikeit (Kitty)",
+      "embeddedLicense": "GNU GPL v2+",
+      "original": "originals/oren.webp",
+      "originalSha256": "c3901265897474ddc8e3eadcd950aab88ccc680563f5ef79407e6f38449848e4",
+      "modified": "oren.webp",
+      "modifiedSha256": "75f36b67ad929f46000093a0df4aae77318ffbec691c6acee3764e1c98afbe13",
+      "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
+    },
+    {
+      "name": "vex",
+      "upstreamPath": "data/core/images/portraits/humans/assassin.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/humans/assassin.webp",
+      "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
+      "artist": "Kathrin Polikeit (Kitty)",
+      "embeddedLicense": "GNU GPL v2+",
+      "original": "originals/vex.webp",
+      "originalSha256": "1665f69b8432b97f1667e07ada8898c476f7e8f7a3d67272aa1ac08e885c83af",
+      "modified": "vex.webp",
+      "modifiedSha256": "fc8f1691b09dd9dafb01a0535ee1be885192bfa17298547c67e1248bcaa52b0e",
+      "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
+    },
+    {
+      "name": "maera",
+      "upstreamPath": "data/core/images/portraits/humans/mage-white+female.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/humans/mage-white+female.webp",
+      "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
+      "artist": "Kathrin Polikeit (Kitty)",
+      "embeddedLicense": "GNU GPL v2+",
+      "original": "originals/maera.webp",
+      "originalSha256": "504e45fe9ab604d1dee3be9fc220ad0ff1f83a9ed45b9c18bafb13e0846fe278",
+      "modified": "maera.webp",
+      "modifiedSha256": "29015d5caa36d5aee604cb8ede3a4bc26475328f32587441f32c1cc5db149291",
+      "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
+    }
+  ],
+  "poster": {
+    "file": "hero-poster.webp",
+    "sha256": "74cad674a7dd45c674d3cb07956540fb266beabaf47e8140116b1b3647b425bd",
+    "size": [
+      512,
+      512
+    ],
+    "license": "GPL-2.0-or-later",
+    "modifications": "Bryn crop composited through opening mask with TheGreatNacho frame 17; WebP quality 86. Created 2026-11-07; unchanged in the 2026-11-08 licensing update."
+  }
+}
