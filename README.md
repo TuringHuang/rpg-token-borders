@@ -37,7 +37,9 @@ Or use them instantly with **[RPG Token Maker](https://rpgtokenmaker.com)** — 
 
 ## License
 
-MIT — free for personal and commercial use.
+The original SVG files in `borders/` are MIT — free for personal and commercial use.
+
+The [sample artwork package](samples/README.md) has separate terms: Battle for Wesnoth portraits and our modified sample images are **GPL v2 or later**, with full license text, originals, pinned source links and reproduction notes in `samples/`. TheGreatNacho frame permissions are preserved separately in `samples/frames/LICENSE.md`.
 
 ## Links
 
