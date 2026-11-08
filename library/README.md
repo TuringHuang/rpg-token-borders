@@ -8,7 +8,7 @@ These 40 fantasy portraits come from [The Battle for Wesnoth](https://www.wesnot
 
 The individual records below, not this repository's root software license, govern these images. **36 portraits are GPL-2.0-or-later, three are CC-BY-SA-4.0, and Giant Spider is CC0-1.0.** Full texts: [GNU GPL version 2](GPL-2.0.txt) (or, at your option, any later version for GPL v2+ images), [CC BY-SA 4.0](CC-BY-SA-4.0.txt), and [CC0 1.0](CC0-1.0.txt). The works are supplied without warranty.
 
-The upstream author record for Bat and Giant Spider is “unknown”; we retain that designation rather than substitute a Git committer as the artist. Wesnoth's record for Giant Spider also points to [this Wikimedia photograph](https://commons.wikimedia.org/wiki/File:Spider_on_the_yellow_pond-lily_leaf.JPG). Current image EXIF credits supersede the retired CSV artist fields for Soldier and Goblin; both old and new fields remain in [sources.json](sources.json).
+The upstream author record for Bat and Giant Spider is “unknown”; we retain that designation rather than substitute a Git commit author as the artist. Wesnoth's record for Giant Spider also points to [this Wikimedia photograph](https://commons.wikimedia.org/wiki/File:Spider_on_the_yellow_pond-lily_leaf.JPG). Current image EXIF credits supersede the retired CSV artist fields for Soldier and Goblin; both old and new fields remain in [sources.json](sources.json).
 
 | Display name | Unchanged original | Pinned upstream path | License | Artist (upstream spelling) |
 |---|---|---|---|---|
@@ -55,7 +55,7 @@ The upstream author record for Bat and Giant Spider is “unknown”; we retain 
 
 ## Verification and first additions
 
-[sources.json](sources.json) records SHA-256 checksums, upstream Git blob IDs, dimensions read from the source files, and per-file first-addition dates and committers obtained with `git log --follow --find-renames=100%`. Git committers and artists are recorded separately. The date of a format conversion, optimization, or EXIF metadata update is not treated as the original contribution date.
+[sources.json](sources.json) records SHA-256 checksums, upstream Git blob IDs, dimensions read from the source files, and per-file first-addition dates and Git commit authors obtained with `git log --follow --find-renames=100%`. Git commit authors and artists are recorded separately. The date of a format conversion, optimization, or EXIF metadata update is not treated as the original contribution date.
 
 The pinned commit's `copyrights.csv` contains audio records only. [Commit f684c20](https://github.com/wesnoth/wesnoth/commit/f684c20dac0392ea6b8b960706ad07c655b7111a) removed its image rows; [commit 0330122](https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117) explicitly replaced image copyright tracking with embedded EXIF artist and copyright tags. We checked the last image-bearing [official CSV](https://github.com/wesnoth/wesnoth/blob/d4b2d151ce3413f8765530c1de0a3a8109dda534/copyrights.csv), preserved the relevant [CSV rows](copyrights-excerpt.csv), and compared every image's current EXIF license. All 45 audited records (40 library entries and five existing samples) agree on their licenses. The explicit CC0 entry takes precedence over the date-based default in [Wesnoth's copyright policy](https://wiki.wesnoth.org/Wesnoth:Copyrights).
 
