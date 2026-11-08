@@ -46,13 +46,13 @@
     },
     {
       "name": "vex",
-      "upstreamPath": "data/core/images/portraits/humans/assassin.webp",
-      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/humans/assassin.webp",
+      "upstreamPath": "data/core/images/portraits/humans/assassin+female.webp",
+      "upstreamUrl": "https://github.com/wesnoth/wesnoth/blob/033012219e737f8c1bca288e16700a8795e67117/data/core/images/portraits/humans/assassin+female.webp",
       "commitUrl": "https://github.com/wesnoth/wesnoth/commit/033012219e737f8c1bca288e16700a8795e67117",
       "artist": "Kathrin Polikeit (Kitty)",
       "embeddedLicense": "GNU GPL v2+",
       "original": "originals/vex.webp",
-      "originalSha256": "1665f69b8432b97f1667e07ada8898c476f7e8f7a3d67272aa1ac08e885c83af",
+      "originalSha256": "2cf61c9e86aa277a93f4347fb1fecb15a104e2350de2623ea2c46f5e5814988f",
       "modified": "vex.webp",
       "modifiedSha256": "fc8f1691b09dd9dafb01a0535ee1be885192bfa17298547c67e1248bcaa52b0e",
       "modifications": "Background added, portrait enlarged and cropped to 640 x 640; WebP encoding. Imported from the prototype on 2026-11-07; unchanged in the 2026-11-08 licensing update."
@@ -79,6 +79,7 @@
       512
     ],
     "license": "GPL-2.0-or-later",
-    "modifications": "Bryn crop composited through opening mask with TheGreatNacho frame 17; WebP quality 86. Created 2026-11-07; unchanged in the 2026-11-08 licensing update."
-  }
+    "modifications": "Composed from bryn.webp and the public-domain Iron Bulwark frame (frames/)."
+  },
+  "sourceCorrection": "2026-11-08: corrected Vex original to humans/assassin+female.webp, matching the supplied composition script and verified output."
 }
