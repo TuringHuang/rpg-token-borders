@@ -15,9 +15,7 @@ What it does to each original portrait:
 hero-poster.webp is not made here: it is a snapshot of the live Hero canvas
 (bryn.webp inside the public-domain TheGreatNacho "Iron Bulwark" frame).
 
-Reproducibility: verified to recreate all five published WebP files
-byte-for-byte with Pillow 12.3.0. Other Pillow versions may differ
-slightly in the faint noise layer or WebP encoding.
+Byte-identical output was verified on Linux x86_64 (glibc) with Python 3.13 and the Pillow 12.3.0 wheel. On other platforms the faint noise layer (Pillow effect_noise uses the C library rand()) and WebP encoding can differ slightly; the composition is otherwise the same.
 
 Requirements: Python 3, Pillow.
 Usage:

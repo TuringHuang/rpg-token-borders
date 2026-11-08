@@ -28,6 +28,6 @@ Unchanged originals are included under [originals/](originals/). [sources.json](
 
 ## Reuse and reproduction
 
-[compose_samples.py](compose_samples.py) composes the five portraits from the original artwork by adding backgrounds and cropping. It has been verified to reconstruct all five published portrait files **byte-for-byte with Pillow 12.3.0 and glibc-compatible noise**. Verification used an isolated Windows test harness reproducing glibc’s noise sequence; the supplied script was unchanged. Native Windows noise can produce different bytes. See [REPRODUCING.md](REPRODUCING.md) for usage and [sources.json](sources.json) for pinned originals and checksums. Keep these license and modification notices with redistributed copies.
+[compose_samples.py](compose_samples.py) composes the five portraits from the original artwork by adding backgrounds and cropping. Byte-identical output was verified on Linux x86_64 (glibc) with Python 3.13 and the Pillow 12.3.0 wheel. On other platforms the faint noise layer (Pillow effect_noise uses the C library rand()) and WebP encoding can differ slightly; the composition is otherwise the same. See [REPRODUCING.md](REPRODUCING.md) for usage and [sources.json](sources.json) for pinned originals and checksums. Keep these license and modification notices with redistributed copies.
 
 The script does not generate `hero-poster.webp`; it remains the supplied Hero canvas snapshot.
