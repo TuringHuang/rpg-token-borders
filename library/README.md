@@ -8,9 +8,9 @@ These 40 fantasy portraits come from [The Battle for Wesnoth](https://www.wesnot
 
 The individual records below, not this repository's root software license, govern these images. **36 portraits are GPL-2.0-or-later, three are CC-BY-SA-4.0, and Giant Spider is CC0-1.0.** Full texts: [GNU GPL version 2](GPL-2.0.txt) (or, at your option, any later version for GPL v2+ images), [CC BY-SA 4.0](CC-BY-SA-4.0.txt), and [CC0 1.0](CC0-1.0.txt). The works are supplied without warranty.
 
-The upstream author record for Bat and Giant Spider is “unknown”; we retain that designation rather than substitute a Git commit author as the artist. Wesnoth's record for Giant Spider also points to [this Wikimedia photograph](https://commons.wikimedia.org/wiki/File:Spider_on_the_yellow_pond-lily_leaf.JPG). Current image EXIF credits supersede the retired CSV artist fields for Soldier and Goblin; both old and new fields remain in [sources.json](sources.json).
+CSV/EXIF agreement alone does not verify authorship. The credited artists in this table and the top-level `author` fields in [sources.json](sources.json) take precedence over mistaken or incomplete upstream artist tags. Dwarf Warrior is Kim Holm (DUHH), Dragon is pixelmind, Ogre is Emilien Rotival (LordBob), and Bat is doofus-01; primary evidence is listed below and in each entry's `authorCorrection`. Raw EXIF/CSV attribution remains unchanged as historical evidence, including [copyrights-excerpt.csv](copyrights-excerpt.csv). The existing EXIF-based credits for Soldier and Goblin are unchanged. Giant Spider's portrait-adaptation artist remains unverified; its original photograph is by Commons user WildBoar, as recorded in the [2011 first revision](https://commons.wikimedia.org/w/index.php?oldid=58028348&title=File:Spider_on_the_yellow_pond-lily_leaf.JPG).
 
-| Display name | Unchanged original | Pinned upstream path | License | Artist (upstream spelling) |
+| Display name | Unchanged original | Pinned upstream path | License | Credited artist |
 |---|---|---|---|---|
 | Guard | [humans-spearman.webp](originals/humans-spearman.webp) | [humans/spearman.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/spearman.webp) | GPL-2.0-or-later | Emilien Rotival(LordBob) |
 | Bandit | [humans-bandit.webp](originals/humans-bandit.webp) | [humans/bandit.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/bandit.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
@@ -19,7 +19,7 @@ The upstream author record for Bat and Giant Spider is “unknown”; we retain 
 | Bandit Captain | [humans-outlaw.webp](originals/humans-outlaw.webp) | [humans/outlaw.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/outlaw.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
 | Brigand | [humans-outlaw-female.webp](originals/humans-outlaw-female.webp) | [humans/outlaw+female.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/outlaw+female.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
 | Scout | [humans-huntsman.webp](originals/humans-huntsman.webp) | [humans/huntsman.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/huntsman.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
-| Dwarf Warrior | [dwarves-fighter-2.webp](originals/dwarves-fighter-2.webp) | [dwarves/fighter-2.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/dwarves/fighter-2.webp) | GPL-2.0-or-later | Phil Barber(thespaceinvader) |
+| Dwarf Warrior | [dwarves-fighter-2.webp](originals/dwarves-fighter-2.webp) | [dwarves/fighter-2.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/dwarves/fighter-2.webp) | GPL-2.0-or-later | Kim Holm (DUHH) |
 | Thief | [humans-thief-female.webp](originals/humans-thief-female.webp) | [humans/thief+female.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/thief+female.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
 | Assassin | [humans-assassin.webp](originals/humans-assassin.webp) | [humans/assassin.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/humans/assassin.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
 | Elf Ranger | [elves-ranger.webp](originals/elves-ranger.webp) | [elves/ranger.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/elves/ranger.webp) | GPL-2.0-or-later | Kathrin Polikeit(Kitty) |
@@ -49,9 +49,22 @@ The upstream author record for Bat and Giant Spider is “unknown”; we retain 
 | Bear | [monsters-bear.webp](originals/monsters-bear.webp) | [monsters/bear.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/bear.webp) | CC-BY-SA-4.0 | (doofus-01) |
 | Giant Rat | [monsters-giant-rat.webp](originals/monsters-giant-rat.webp) | [monsters/giant-rat.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/giant-rat.webp) | GPL-2.0-or-later | (ZygoUgo) |
 | Giant Spider | [monsters-giant-spider.webp](originals/monsters-giant-spider.webp) | [monsters/giant-spider.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/giant-spider.webp) | CC0-1.0 | unknown |
-| Bat | [monsters-bat-red.webp](originals/monsters-bat-red.webp) | [monsters/bat-red.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/bat-red.webp) | CC-BY-SA-4.0 | unknown |
-| Ogre | [monsters-ogre.webp](originals/monsters-ogre.webp) | [monsters/ogre.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/ogre.webp) | GPL-2.0-or-later | Justin Nichols(JustinOperable) |
-| Dragon | [monsters-fire-dragon.webp](originals/monsters-fire-dragon.webp) | [monsters/fire-dragon.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/fire-dragon.webp) | GPL-2.0-or-later | Emilien Rotival(LordBob) |
+| Bat | [monsters-bat-red.webp](originals/monsters-bat-red.webp) | [monsters/bat-red.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/bat-red.webp) | CC-BY-SA-4.0 | doofus-01 |
+| Ogre | [monsters-ogre.webp](originals/monsters-ogre.webp) | [monsters/ogre.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/ogre.webp) | GPL-2.0-or-later | Emilien Rotival (LordBob) |
+| Dragon | [monsters-fire-dragon.webp](originals/monsters-fire-dragon.webp) | [monsters/fire-dragon.webp](https://github.com/wesnoth/wesnoth/blob/eeea9ac0361a6e98f1f6e85b746f15bd65210586/data/core/images/portraits/monsters/fire-dragon.webp) | GPL-2.0-or-later | pixelmind |
+
+## Corrected author evidence
+
+Original images and their EXIF are unchanged. Our credited artists override these four upstream attribution errors or omissions:
+
+| Entry | Credited artist | Primary evidence |
+|---|---|---|
+| Dwarf Warrior | Kim Holm (DUHH) | [2009-03-22 addition and ARTISTS/about.cfg credits](https://github.com/wesnoth/wesnoth/commit/624736ad9f4fc1b0b8c079af0fd879ac726bc8f5) |
+| Dragon | pixelmind | [2012-01-06 addition](https://github.com/wesnoth/wesnoth/commit/e53034974208bfb2894f1772a3a8c638b20431ec); [2019-05-01 move into core](https://github.com/wesnoth/wesnoth/commit/33eda16aad2d35e331424dba1b402c726925ca35) |
+| Ogre | Emilien Rotival (LordBob) | [LordBob's 2012-06-19 post](https://forums.wesnoth.org/viewtopic.php?p=531640#p531640); [2012-10-07 replacement](https://github.com/wesnoth/wesnoth/commit/4159dea592c25e2dd67bb62ca75dd9de71a61876) |
+| Bat | doofus-01 | [Author's 2019-05-12 post](https://forums.wesnoth.org/viewtopic.php?p=642148#p642148); [PR #4061](https://github.com/wesnoth/wesnoth/pull/4061) |
+
+`firstCommit` records the earliest followed path history, which can include older artwork; `currentArtwork` separately records verified additions/replacements for the current pictures. Giant Spider's `sourcePhotograph` records WildBoar and the original `{{self|Cc-zero}}` template without attributing the portrait adaptation to an unverified artist. No other top-level artist credits or license values change.
 
 ## Verification and first additions
 
