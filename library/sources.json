@@ -78,7 +78,13 @@
         "copyrightTableArtist": "Kathrin Polikeit(Kitty)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/humans/bandit.webp,GNU GPL v2+,Kathrin Polikeit(Kitty),,,50335db1b9ca24472c72d5d8f600a081",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "acb01a6e2495b3f9dc0dd60d655d9ec7af9a8c83",
+          "date": "2009-08-11",
+          "source": "https://github.com/wesnoth/wesnoth/commit/acb01a6e2495b3f9dc0dd60d655d9ec7af9a8c83",
+          "note": "Replaced the older portrait with the current Bandit artwork."
+        }
       }
     },
     {
@@ -114,7 +120,13 @@
         "copyrightTableArtist": "Kathrin Polikeit(Kitty)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/humans/thug.webp,GNU GPL v2+,Kathrin Polikeit(Kitty),,,9381d98b5307d2192390b1a1ea85e928",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "b094959a5bd3281f86d205f69aa74a0e627b2ac3",
+          "date": "2009-08-11",
+          "source": "https://github.com/wesnoth/wesnoth/commit/b094959a5bd3281f86d205f69aa74a0e627b2ac3",
+          "note": "Replaced the older portrait with the current Thug artwork."
+        }
       }
     },
     {
@@ -274,7 +286,7 @@
       "width": 400,
       "height": 400,
       "license": "GPL-2.0-or-later",
-      "author": "Phil Barber(thespaceinvader)",
+      "author": "Kim Holm (DUHH)",
       "sha256": "722779c9e980dc18c33654abd2d0e211be1e27b61b55ea511bbfcb8111f0a248",
       "upstreamBlob": "28b064765ed68eb734a8ccf2a131e868107fcdfd",
       "provenance": {
@@ -294,7 +306,14 @@
         "copyrightTableArtist": "Phil Barber(thespaceinvader)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/dwarves/fighter-2.webp,GNU GPL v2+,Phil Barber(thespaceinvader),,,00f99fe41441c7defa5e425c8b9fcb8a",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "authorCorrection": {
+          "reviewedAt": "2026-11-09",
+          "note": "Upstream EXIF/CSV attribution is incorrect or incomplete; use the top-level author, supported by these primary sources. Raw embeddedArtist and copyrightTable fields are retained as evidence.",
+          "sources": [
+            "https://github.com/wesnoth/wesnoth/commit/624736ad9f4fc1b0b8c079af0fd879ac726bc8f5"
+          ]
+        }
       }
     },
     {
@@ -366,7 +385,13 @@
         "copyrightTableArtist": "Kathrin Polikeit(Kitty)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/humans/assassin.webp,GNU GPL v2+,Kathrin Polikeit(Kitty),,,6306d4b89b7f4841c5cfd3c306e024c3",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "ed6e1753b52f1851de899507b9e5d31b07458d4a",
+          "date": "2009-03-15",
+          "source": "https://github.com/wesnoth/wesnoth/commit/ed6e1753b52f1851de899507b9e5d31b07458d4a",
+          "note": "Added Kitty's current male Assassin portrait; also used by sample-vex."
+        }
       }
     },
     {
@@ -942,7 +967,13 @@
         "copyrightTableArtist": "Emilien Rotival(LordBob)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/orcs/warlord.webp,GNU GPL v2+,Emilien Rotival(LordBob),,,2ce532c56e9e9fa94bb319a9f527befe",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "19428efb5e290893052d2c217746862178cfcbd8",
+          "date": "2010-03-23",
+          "source": "https://github.com/wesnoth/wesnoth/commit/19428efb5e290893052d2c217746862178cfcbd8",
+          "note": "Removed the old-style warlord portraits and reused the then-current warrior portrait as warlord; transparent PNG blob d50f642c436d5819f2241f6c11542d8629543f78 is identical across the move."
+        }
       }
     },
     {
@@ -1086,7 +1117,13 @@
         "copyrightTableArtist": "Chris Wilson(Valkier)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/undead/ghoul.webp,GNU GPL v2+,Chris Wilson(Valkier),,,64a62f78c1299d6c96723f91d866f433",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "53814c2b0d27dfbb84314e820925dd5b177f69e3",
+          "date": "2010-06-14",
+          "source": "https://github.com/wesnoth/wesnoth/commit/53814c2b0d27dfbb84314e820925dd5b177f69e3",
+          "note": "Added Valkier's current Ghoul portrait."
+        }
       }
     },
     {
@@ -1338,7 +1375,14 @@
         "copyrightTableArtist": "unknown",
         "copyrightTableNotes": "https://commons.wikimedia.org/wiki/File:Spider_on_the_yellow_pond-lily_leaf.JPG",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/monsters/giant-spider.webp,CC0,unknown,https://commons.wikimedia.org/wiki/File:Spider_on_the_yellow_pond-lily_leaf.JPG,,55e1252e43db22ebdf819034ec5705e8",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "sourcePhotograph": {
+          "author": "WildBoar",
+          "source": "https://commons.wikimedia.org/w/index.php?oldid=58028348&title=File:Spider_on_the_yellow_pond-lily_leaf.JPG",
+          "firstRevisionDate": "2011-08-14",
+          "licenseTemplate": "{{self|Cc-zero}}",
+          "note": "Original photograph author; the artist of the Wesnoth portrait adaptation remains unverified. 2022/04/13 is the CSV record date; the portrait was first added on 2016-05-23 in 4213ca27475184258ec0cc1bc3846091878f4432."
+        }
       }
     },
     {
@@ -1354,7 +1398,7 @@
       "width": 500,
       "height": 500,
       "license": "CC-BY-SA-4.0",
-      "author": "unknown",
+      "author": "doofus-01",
       "sha256": "6d7df223c6893bd1641f532b62fbbd4d06a099587b9303110881ecfc9b80e46d",
       "upstreamBlob": "32fdf3f917e4d7ded1e9b16e9433da49c0b465c0",
       "provenance": {
@@ -1374,7 +1418,15 @@
         "copyrightTableArtist": "unknown",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/monsters/bat-red.webp,CC BY-SA 4.0,unknown,,,fc8d97031f6fb4fee202971b2b0b729e",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "authorCorrection": {
+          "reviewedAt": "2026-11-09",
+          "note": "Upstream EXIF/CSV attribution is incorrect or incomplete; use the top-level author, supported by these primary sources. Raw embeddedArtist and copyrightTable fields are retained as evidence.",
+          "sources": [
+            "https://forums.wesnoth.org/viewtopic.php?p=642148#p642148",
+            "https://github.com/wesnoth/wesnoth/pull/4061"
+          ]
+        }
       }
     },
     {
@@ -1390,7 +1442,7 @@
       "width": 500,
       "height": 500,
       "license": "GPL-2.0-or-later",
-      "author": "Justin Nichols(JustinOperable)",
+      "author": "Emilien Rotival (LordBob)",
       "sha256": "d7210bb77d3faf240a92181872adce35e413051fe4c5c82458cf1194d996d03d",
       "upstreamBlob": "c7aeb2dfc9c6353906c3957bedde779ca81c4c09",
       "provenance": {
@@ -1410,7 +1462,21 @@
         "copyrightTableArtist": "Justin Nichols(JustinOperable)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/monsters/ogre.webp,GNU GPL v2+,Justin Nichols(JustinOperable),,,aefa895a55e125dd827d5d90f0a34839",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "authorCorrection": {
+          "reviewedAt": "2026-11-09",
+          "note": "Upstream EXIF/CSV attribution is incorrect or incomplete; use the top-level author, supported by these primary sources. Raw embeddedArtist and copyrightTable fields are retained as evidence.",
+          "sources": [
+            "https://forums.wesnoth.org/viewtopic.php?p=531640#p531640",
+            "https://github.com/wesnoth/wesnoth/commit/4159dea592c25e2dd67bb62ca75dd9de71a61876"
+          ]
+        },
+        "currentArtwork": {
+          "commit": "4159dea592c25e2dd67bb62ca75dd9de71a61876",
+          "date": "2012-10-07",
+          "source": "https://github.com/wesnoth/wesnoth/commit/4159dea592c25e2dd67bb62ca75dd9de71a61876",
+          "note": "Replaced the older JustinOperable portrait with LordBob's Ogre."
+        }
       }
     },
     {
@@ -1426,7 +1492,7 @@
       "width": 500,
       "height": 500,
       "license": "GPL-2.0-or-later",
-      "author": "Emilien Rotival(LordBob)",
+      "author": "pixelmind",
       "sha256": "032f2bb57458e5a6b519da3f6364df83ced01c965371398633e0bda976904711",
       "upstreamBlob": "6818af50ebe05a5f0bc16e86330207c66d334395",
       "provenance": {
@@ -1446,7 +1512,21 @@
         "copyrightTableArtist": "Emilien Rotival(LordBob)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/monsters/fire-dragon.webp,GNU GPL v2+,Emilien Rotival(LordBob),,,9cbe9adcd4f2e1e7e5e750061ec9f519",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "authorCorrection": {
+          "reviewedAt": "2026-11-09",
+          "note": "Upstream EXIF/CSV attribution is incorrect or incomplete; use the top-level author, supported by these primary sources. Raw embeddedArtist and copyrightTable fields are retained as evidence.",
+          "sources": [
+            "https://github.com/wesnoth/wesnoth/commit/e53034974208bfb2894f1772a3a8c638b20431ec",
+            "https://github.com/wesnoth/wesnoth/commit/33eda16aad2d35e331424dba1b402c726925ca35"
+          ]
+        },
+        "currentArtwork": {
+          "commit": "e53034974208bfb2894f1772a3a8c638b20431ec",
+          "date": "2012-01-06",
+          "source": "https://github.com/wesnoth/wesnoth/commit/e53034974208bfb2894f1772a3a8c638b20431ec",
+          "note": "Added pixelmind's dragon as Sceptre of Fire's Khrakrahs; moved to core on 2019-05-01 by 33eda16aad2d35e331424dba1b402c726925ca35."
+        }
       }
     }
   ],
@@ -1568,7 +1648,13 @@
         "copyrightTableArtist": "Kathrin Polikeit(Kitty)",
         "copyrightTableNotes": "",
         "copyrightTableRow": "2022/04/13,data/core/images/portraits/humans/assassin.webp,GNU GPL v2+,Kathrin Polikeit(Kitty),,,6306d4b89b7f4841c5cfd3c306e024c3",
-        "authorRecordUpdated": false
+        "authorRecordUpdated": false,
+        "currentArtwork": {
+          "commit": "ed6e1753b52f1851de899507b9e5d31b07458d4a",
+          "date": "2009-03-15",
+          "source": "https://github.com/wesnoth/wesnoth/commit/ed6e1753b52f1851de899507b9e5d31b07458d4a",
+          "note": "Added Kitty's current male Assassin portrait; shared with humans-assassin."
+        }
       }
     },
     {
